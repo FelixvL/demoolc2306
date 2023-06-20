@@ -10,5 +10,5 @@ def helloWorld():
   return "Hello, cross-origin-world!"
 
 @app.route("/felix")
-def felix():
-  return "Hello, felix!"
+def felixmethode():
+  return felix.mijnownfunction()
